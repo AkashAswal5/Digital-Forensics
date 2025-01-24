@@ -12,3 +12,16 @@ Volatility
 Wireshark
 ProDiscover Forensics
 Magnet AXIOM
+
+
+
+1. EnCase Forensic: Used for disk imaging, file recovery, and in-depth analysis in criminal investigations and legal proceedings.
+2. FTK (Forensic Toolkit): Primarily for processing large amounts of data, keyword searching, and analyzing file metadata in corporate and criminal investigations.
+3. Autopsy: Open-source platform for file system analysis, data carving, and timeline analysis, typically used in computer and mobile device investigations.
+4. X1 Social Discovery: Captures data from social media, emails, and web browsers for cases involving online behavior and communications.
+5. Cellebrite UFED: Specializes in mobile device forensics, recovering data from smartphones, apps, and deleted files, often used in criminal investigations.
+6. Sleuth Kit: A set of open-source tools for analyzing disk images, recovering deleted files, and performing forensic investigations on file systems.
+7. Volatility: Focuses on memory forensics, extracting data from memory dumps to analyze running processes and malware activities.
+8. Wireshark: Used for network traffic analysis to capture and examine packets, aiding in network-based attack investigations.
+9. ProDiscover Forensics: Tool for disk imaging, remote system data capture, and detailed file system analysis in private and governmental investigations.
+10. Magnet AXIOM: Collects and analyzes data from computers, mobile devices, and cloud services, suitable for multi-platform investigations.
