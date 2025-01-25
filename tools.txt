@@ -6,3 +6,38 @@ zsteg – Analyzes image for hidden data using LSB techniques.
 fcrackzip – Brute-forces password-protected ZIP files.
 unzip – Extracts files from ZIP archives.
 cat – Views file contents (used for the flag).
+
+
+1.	exiftool
+•	Purpose: To extract metadata from the image file.
+•	Command: exiftool 1.jpeg
+
+2.	  strings
+•	Purpose: To extract readable text strings from the binary content of the image.
+•	Command: strings 1.jpeg | less
+
+3.	binwalk
+•	Purpose: To analyze and extract embedded files or data from the image.
+•	Command: binwalk 1.jpeg   
+binwalk --extract 1.jpeg
+
+4.	 steghide
+•	Purpose: To extract hidden data embedded in the image (steganography).
+•	Command:  steghide extract -sf 1.jpeg
+
+5.	   zsteg
+•	Purpose: To analyze the image for hidden data using least significant bit (LSB) techniques.
+•	Command: zsteg 1.jpeg
+
+6.	 fcrackzip
+•	Purpose: To brute-force a password-protected ZIP file using a wordlist.
+•	Command: fcrackzip -u -D -p /usr/share/wordlists/rockyou.txt 174D1.zip
+
+7.	  unzip
+•	Purpose: To extract the contents of the ZIP archive after cracking the password.
+•	Command:  unzip 174D1.zip
+
+8.	 cat
+•	Purpose: To view the contents of the extracted flag.txt file.
+•	Command:  cat flag.txt
+
