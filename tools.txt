@@ -1,0 +1,8 @@
+exiftool – Extracts image metadata.
+strings – Extracts readable text from the image.
+binwalk – Extracts embedded files or data from the image.
+steghide – Extracts hidden data from the image.
+zsteg – Analyzes image for hidden data using LSB techniques.
+fcrackzip – Brute-forces password-protected ZIP files.
+unzip – Extracts files from ZIP archives.
+cat – Views file contents (used for the flag).
